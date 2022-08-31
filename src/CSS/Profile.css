@@ -1,0 +1,32 @@
+.Profile {
+    background-color: #fde2e7;
+}
+
+.WholeBox{
+    border: 3px solid white;
+}
+
+.profilePicDiv{
+    border: 3px solid white;
+    border-radius: 180px;
+}
+
+.HeaderFont {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: "SBAggroB";
+}
+
+.FirstText{
+    font-weight: bold;
+    font-family: "SBAggroB";
+}
+
+.SecondText{
+    font-family: "SBAggroL";
+}
+
+.ThirdText{
+    font-family: "SBAggroB";
+}
+

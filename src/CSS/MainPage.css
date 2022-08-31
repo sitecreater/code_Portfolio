@@ -1,0 +1,24 @@
+.MainPage {
+    background-color: #fde2e7;
+    transition: all 0.4s ease-in-out;
+}
+
+.mainText {
+    font-size: 50px;
+    color: rgb(78, 86, 92);
+    font-family: "SBAggroB";
+}
+
+.subText {
+    font-size: large;
+    color: rgb(78, 86, 92);
+    font-family: "SBAggroL";
+}
+
+.mainPageBtn {
+    width: 30vh;
+    height: 8vh;
+    border-radius: 30px;
+    border: none;
+    transition: all 0.4s ease-in-out;
+}

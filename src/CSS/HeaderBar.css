@@ -1,0 +1,8 @@
+#HeaderBarFont {
+    font-family: "SBAggroB";
+}
+
+#subText {
+    display: flex;
+    justify-content: flex-end;
+}
