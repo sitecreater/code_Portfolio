@@ -1,3 +1,13 @@
-.Work {
-    background-color: #fde2e7;
+.WholeBox {
+    margin-bottom: 100px;
+}
+
+.WorkMainText {
+    font-size: 20px;
+    font-family: "SBAggroB";
+}
+
+.WorkSubText {
+    font-family: "SBAggroL";
+    font-size: 15px;
 }

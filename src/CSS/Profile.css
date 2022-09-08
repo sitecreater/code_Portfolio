@@ -1,9 +1,12 @@
-.Profile {
-    background-color: #fde2e7;
+.HeaderFont {
+    font-size: 28px;
+    font-family: "SBAggroB";
 }
 
 .WholeBox{
-    border: 3px solid white;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    background-color: rgb(255, 234, 234)
 }
 
 .profilePicDiv{
@@ -11,18 +14,12 @@
     border-radius: 180px;
 }
 
-.HeaderFont {
-    font-size: x-large;
+.ProfileMainText{
     font-weight: bold;
     font-family: "SBAggroB";
 }
 
-.FirstText{
-    font-weight: bold;
-    font-family: "SBAggroB";
-}
-
-.SecondText{
+.ProfileSubText{
     font-family: "SBAggroL";
 }
 
