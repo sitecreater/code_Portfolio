@@ -33,21 +33,25 @@ function Work() {
                                     <div className='WorkSubText'>
                                         {work.participation}
                                     </div>
-                                    <div className="pt-5">
-                                        <a href={work.gitLink} target="_blank" rel="noopener noreferrer">
-                                            <img
-                                                src={"https://raw.githubusercontent.com/sitecreater/portfolioStorage.github.io/main/" +
-                                                        "icon_github.png"}
-                                                alt=''
-                                                className='mx-5'/>
-                                        </a>
-                                        <a href={work.hostLink} target="_blank" rel="noopener noreferrer">
-                                            <img
-                                                src={"https://raw.githubusercontent.com/sitecreater/portfolioStorage.github.io/main/" +
-                                                        "icon_site.png"}
-                                                alt=''
-                                                className='mx-5'/>
-                                        </a>
+                                    <div className='iconSpace'>
+                                        <div className="pt-5">
+                                            <div>
+                                                <a href={work.gitLink} target="_blank" rel="noopener noreferrer">
+                                                    <i className="fa-brands fa-github fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div className='ContextSubText pt-2'>GitHub</div>
+
+                                        </div>
+                                        <div className="pt-5">
+                                            <div>
+                                                <a href={work.hostLink} target="_blank" rel="noopener noreferrer">
+                                                    <i className="fa-solid fa-earth-americas fa-3x"></i>
+                                                </a>
+                                            </div>
+                                            <div className='ContextSubText pt-2'>Hosting</div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>

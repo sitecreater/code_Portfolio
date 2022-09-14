@@ -11,3 +11,8 @@
     font-family: "SBAggroL";
     font-size: 15px;
 }
+
+.iconSpace{
+    display: flex;
+    justify-content: space-evenly;
+}

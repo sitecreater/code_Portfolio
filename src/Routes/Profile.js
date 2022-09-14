@@ -42,7 +42,7 @@ function Profile() {
                         </div>
                         <div className="col-md-6 pt-5">
                             <div className='ProfileMainText'>Skills</div>
-                            <div>Java, JavaScript, React, Firebase, Sql, Unity</div>
+                            <div>Java, JavaScript, React, Firebase, Sql, Unity, Jira, Git</div>
                         </div>
                     </div>
                 </div>

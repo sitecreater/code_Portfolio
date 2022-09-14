@@ -1,20 +1,33 @@
 import '../CSS/Contact.css';
-import {Button} from 'react-bootstrap';
 
 function Contact() {
     return (
-        <div className="Contact">
+        <div className="Contact pb-5">
+            <div className='HeaderFont pt-5 pb-5'>
+                Contact
+            </div>
             <div className="container">
-                <div className='row'>
-                    <div className='HeaderFont pt-5 pb-5'>
-                        Contact
-                    </div>
+                <div className='WholeBox pt-5 pb-5'>
+                    <div className='row'>
+                        <div className="col-md-4 pt-5">
+                            <i className="fa-solid fa-phone fa-2x"></i>
+                            <div className='ContextMainText pt-4'>Phone</div>
+                            <div className='ContextSubText pt-2'>010-9793-7502</div>
+                        </div>
 
-                    <div className="pt-5">
-                        안녕하세요? 개발자 Park 입니다.
-                    </div>
-                    <div className="pt-5 pb-5">
-                            <Button variant="dark">Contact</Button>
+                        <div className="col-md-4 pt-5">
+                            <i className="fa-solid fa-envelope fa-2x"></i>
+                            <div className='ContextMainText pt-4'>E-Mail</div>
+                            <div className='ContextSubText pt-2'>pk8008@naver.com</div>
+                        </div>
+
+                        <div className="col-md-4 pt-5">
+                            <i class="fa-brands fa-github fa-2x"></i>
+                            <div className='ContextMainText pt-4'>GitHub</div>
+                            <div className='ContextSubText pt-2'>
+                                <a href="https://github.com/sitecreater">https://github.com/sitecreater</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
