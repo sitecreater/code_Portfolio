@@ -6,7 +6,7 @@ https://sitecreater.github.io/
 ## 소개
 ** Portfolio 사이트 개발에 사용 된 코드 입니다.**
 
-## Drawa 사이트란?
+## Portfolio 사이트란?
 **안녕하세요. 신입 웹 개발자 박성민입니다.**
 
 ## 포트폴리오 페이지에 사용한 기술
