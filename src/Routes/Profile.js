@@ -2,23 +2,24 @@ import '../CSS/Profile.css';
 
 function Profile() {
     return (
-        <div className="Profile pb-5">
-            <div className='HeaderFont pt-5 pb-5'>
+        <div className="Profile pt-5 pb-5">
+            <div className='HeaderFont pb-1'>
                 Profile
             </div>
+            <div className='HeaderLine pb-3'>&nbsp;</div>
             <div className="container">
                 <div className='WholeBox pt-5 pb-5'>
                     <div className='row'>
                         <div className="col-md-6 pt-5">
                             <img
                                 src={"https://raw.githubusercontent.com/sitecreater/portfolioStorage.github.io/main/" +
-                                        "profilePic.jpg"}
-                                width="40%"
+                                        "profile.jpg"}
+                                width="35%"
                                 alt=''
-                                className='profilePicDiv '/>
+                                className='profilePicDiv'/>
                         </div>
                         <div className="col-md-6 pt-5 my-auto">
-                            <div className='ProfileMainText pt-3'>
+                            <div className='ProfileMainText pb-3'>
                                 "Just try your hardest"
                             </div>
                             <div className='ProfileSubText pt-3'>
@@ -27,9 +28,9 @@ function Profile() {
                             <div className='ProfileSubText'>
                                 늘 배우고 노력하는 자세로 빠르게 변화하는 트렌드에 맞춰
                             </div>
-                            <div className='ProfileSubText'>발전하는 프런트엔드 개발자가 되겠습니다.
+                            <div className='ProfileSubText'>발전하는 프론트엔드 개발자가 되겠습니다.
                             </div>
-                            <div className='ProfileSubText pt-1'>
+                            <div className='ProfileSubText pt-3'>
                                 안녕하세요. 신입 웹 개발자 박성민입니다.
                             </div>
 

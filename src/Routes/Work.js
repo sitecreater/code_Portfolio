@@ -8,9 +8,10 @@ function Work() {
 
     return (
         <div className="Work">
-            <div className='HeaderFont pb-5'>
+            <div className='HeaderFont pb-1'>
                 Work
             </div>
+            <div className='HeaderLine pb-3'>&nbsp;</div>
             <div className="container">
                 { // WorkData 반복문
                     work.map((work) => (

@@ -2,15 +2,50 @@
     transition: all 0.4s ease-in-out;
 }
 
+.pinkBrain {
+    position: relative;
+    animation-name: BrainWorking;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes BrainWorking {
+    0% {
+        background-color: #fde2e7;
+        left: 0;
+        top: 0;
+    }
+    25% {
+        background-color: #fde2e7;
+        left: 0;
+        top: 15px;
+    }
+    50% {
+        background-color: #fde2e7;
+        left: 0;
+        top: 0;
+    }
+    75% {
+        background-color: #fde2e7;
+        left: 0;
+        top: 15px;
+    }
+    100% {
+        background-color: #fde2e7;
+        left: 0;
+        top: 0;
+    }
+}
+
 .mainPageText {
     font-size: 50px;
-    color: rgb(78, 86, 92);
+    color: rgb(44, 47, 50);
     font-family: "SBAggroB";
 }
 
 .mainPageSubText {
     font-size: large;
-    color: rgb(78, 86, 92);
+    color: rgb(44, 47, 50);
     font-family: "SBAggroL";
 }
 
@@ -20,4 +55,9 @@
     border-radius: 30px;
     border: none;
     transition: all 0.4s ease-in-out;
+}
+
+.mainPageBtn:hover {
+    font-weight: 700;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
 }

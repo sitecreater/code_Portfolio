@@ -3,27 +3,36 @@
     font-family: "SBAggroB";
 }
 
-.WholeBox{
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 4px;
-    background-color: rgb(255, 234, 234)
+.HeaderLine {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-top: 4px solid rgb(132, 51, 51);
 }
 
-.profilePicDiv{
+.WholeBox {
+    border: solid 1px white;
+    border-radius: 20px 40px 60px 80px;
+    background-color: rgb(255, 234, 234, 0.5);
+    box-shadow: 0 0.10em 0.5em rgba(0, 0, 0, 0.2);
+    border-bottom: solid 1px var(--primary);
+}
+
+.profilePicDiv {
     border: 3px solid white;
-    border-radius: 180px;
+    border-radius: 18%;
 }
 
-.ProfileMainText{
+.ProfileMainText {
     font-weight: bold;
     font-family: "SBAggroB";
 }
 
-.ProfileSubText{
+.ProfileSubText {
     font-family: "SBAggroL";
 }
 
-.ThirdText{
+.ThirdText {
     font-family: "SBAggroB";
 }
-

@@ -3,9 +3,10 @@ import '../CSS/Contact.css';
 function Contact() {
     return (
         <div className="Contact pb-5">
-            <div className='HeaderFont pt-5 pb-5'>
+            <div className='HeaderFont pb-1'>
                 Contact
             </div>
+            <div className='HeaderLine pb-3'>&nbsp;</div>
             <div className="container">
                 <div className='WholeBox pt-5 pb-5'>
                     <div className='row'>
