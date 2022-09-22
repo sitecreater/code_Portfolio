@@ -1,9 +1,22 @@
 import '../CSS/Profile.css';
+import {useState} from 'react';
 
 function Profile() {
+
+    let [skills] = useState([
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+    ]);
+
     return (
         <div className="Profile pt-5 pb-5">
-            <div className='HeaderFont pb-1'>
+            <div className='HeaderFont pb-1' id="profile">
                 Profile
             </div>
             <div className='HeaderLine pb-3'>&nbsp;</div>
@@ -35,15 +48,26 @@ function Profile() {
                             </div>
 
                         </div>
-                        <div className="col-md-6 pt-5">
-                            <div className='ProfileMainText'>나이</div>
+                        <div className="col-md-6 pt-5 pb-5">
+                            <div className='ProfileMainText pt-5'>나이</div>
                             <div>97. 05. 21</div>
                             <div className='ProfileMainText pt-5'>E-mail</div>
                             <div>pk8008@naver.com</div>
                         </div>
                         <div className="col-md-6 pt-5">
                             <div className='ProfileMainText'>Skills</div>
-                            <div>Java, JavaScript, React, Firebase, Sql, Unity, Jira, Git</div>
+                            {
+                                skills.map((a, i) => (
+                                    <img
+                                        src={"https://raw.githubusercontent.com/sitecreater/portfolioStorage.github.io/main/" +
+                                                "skill_icon_" + (
+                                            i + 1
+                                        ) + ".png"}
+                                        width="7%"
+                                        alt=''
+                                        className='skills mx-5 my-4'/>
+                                ))
+                            }
                         </div>
                     </div>
                 </div>

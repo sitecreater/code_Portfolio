@@ -1,5 +1,6 @@
 #HeaderBarFont {
     font-family: "SBAggroB";
+    cursor: pointer;
 }
 
 #HeaderBarSubText {
