@@ -1,7 +1,8 @@
 import React from 'react';
 import '../CSS/HeaderBar.css';
 import {Navbar, Container, Nav} from 'react-bootstrap'
-import {Link} from 'react-router-dom'
+import { Link } from "react-scroll";
+
 
 function HeaderBar() {
 
@@ -15,10 +16,10 @@ function HeaderBar() {
                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto">
-                                <Nav.Link as={Link} to="/">Home</Nav.Link>
-                                <Nav.Link as={Link} to="/profile">Profile</Nav.Link>
-                                <Nav.Link as={Link} to="/work">Work</Nav.Link>
-                                <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+                                <Nav.Link as={Link} to="/" spy={true} smooth={true}>Home</Nav.Link>
+                                <Nav.Link as={Link} to="profile" spy={true} smooth={true}>Profile</Nav.Link>
+                                <Nav.Link as={Link} to="work" spy={true} smooth={true}>Work</Nav.Link>
+                                <Nav.Link as={Link} to="contact" spy={true} smooth={true}>Contact</Nav.Link>
                             </Nav>
                             </Navbar.Collapse>
                             </div>

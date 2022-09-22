@@ -3,7 +3,7 @@ import '../CSS/Contact.css';
 function Contact() {
     return (
         <div className="Contact pb-5">
-            <div className='HeaderFont pb-1'>
+            <div className='HeaderFont pb-1' id='contact'>
                 Contact
             </div>
             <div className='HeaderLine pb-3'>&nbsp;</div>
@@ -23,7 +23,7 @@ function Contact() {
                         </div>
 
                         <div className="col-md-4 pt-5">
-                            <i class="fa-brands fa-github fa-2x"></i>
+                            <i className="fa-brands fa-github fa-2x"></i>
                             <div className='ContextMainText pt-4'>GitHub</div>
                             <div className='ContextSubText pt-2'>
                                 <a href="https://github.com/sitecreater">https://github.com/sitecreater</a>

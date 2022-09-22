@@ -18,7 +18,7 @@ function MainPage() {
                             직관적인 웹 개발자.
                         </div>
                         <div className="pt-5">
-                            <Button variant="dark" className="mainPageBtn">
+                            <Button variant="dark"  className="mainPageBtn">
                                 <h3>See my work</h3>
                             </Button>
                         </div>

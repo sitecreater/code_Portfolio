@@ -8,7 +8,7 @@ function Work() {
 
     return (
         <div className="Work">
-            <div className='HeaderFont pb-1'>
+            <div className='HeaderFont pb-1' id="work">
                 Work
             </div>
             <div className='HeaderLine pb-3'>&nbsp;</div>
