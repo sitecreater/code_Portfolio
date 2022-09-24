@@ -26,7 +26,7 @@ function Profile() {
                         <div className="col-md-6 pt-5">
                             <img
                                 src={"https://raw.githubusercontent.com/sitecreater/portfolioStorage.github.io/main/" +
-                                        "profile.jpg"}
+                                        "Profile.jpg"}
                                 width="35%"
                                 alt=''
                                 className='profilePicDiv'/>

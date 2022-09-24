@@ -3,6 +3,9 @@
 보러가기
 https://sitecreater.github.io/
 
+추가설명
+https://velog.io/@sitecreater/series/Portfolio-Project
+
 ## 소개
 **Portfolio 사이트 개발에 사용 된 코드 입니다.**
 

@@ -1,5 +1,6 @@
 import '../CSS/MainPage.css';
 import {Button} from 'react-bootstrap';
+import {Link} from "react-scroll";
 
 function MainPage() {
     return (
@@ -18,15 +19,17 @@ function MainPage() {
                             직관적인 웹 개발자.
                         </div>
                         <div className="pt-5">
-                            <Button variant="dark"  className="mainPageBtn">
-                                <h3>See my work</h3>
+                            <Button variant="dark" className="mainPageBtn">
+                                <Link as={Link} to="work" spy={true} smooth={true}>
+                                    <h3>See my work</h3>
+                                </Link>
                             </Button>
                         </div>
                     </div>
                     <div className="col-md-6 pt-5 mb-5">
                         <img
                             src={"https://raw.githubusercontent.com/sitecreater/portfolioStorage.github.io/main/" +
-                                    "pinkBrain.png"}
+                                    "PinkBrain.png"}
                             width="70%"
                             alt=''
                             className='pinkBrain'/>
