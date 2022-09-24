@@ -18,7 +18,7 @@ function Work() {
                         <div className="WholeBox pt-5 pb-5" key={work.id}>
                             <div className='row'>
                                 <div className="mb-5">
-                                    <img src={work.image} width="15%" alt='' className='pt-5'/>
+                                    <img src={work.image} width="15%" alt='' className='workPicDiv'/>
                                 </div>
 
                                 <div className="my-auto">

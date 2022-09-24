@@ -2,41 +2,31 @@ let data = [
     {
         id: 0,
         image: "https://raw.githubusercontent.com/sitecreater/portfolioStorage.github.io/main/" +
-                "DrawaLogo.png",
-        title: "Drawa",
-        useLang: "사용 언어 : React, Firebase",
-        function: "주요 기능: react-query를 이용한 데이터 fetch, 검색기능 구현,framer-motion을 이용한 슬라이드, 모달창 등",
-        participation: "참여도 : 100%",
+                "logo_Portfoilo.png",
+        title: "Portfolio Project",
+        useLang: "사용 언어 : React, Bootstrap, CSS, Github Hosting",
+        function: "주요 기능: ",
+        participation: "참여도 : 100% (개인 프로젝트)",
         gitLink: "https://github.com/sitecreater/portfolioCode",
-        hostLink: "https://capstone-pwa.firebaseapp.com/"
+        hostLink: "https://sitecreater.github.io/"
     }, {
         id: 1,
         image: "https://raw.githubusercontent.com/sitecreater/portfolioStorage.github.io/main/" +
-                "DrawaLogo.png",
-        title: "Java Project",
-        useLang: "사용 언어 : Java",
+                "logo_Drawa.png",
+        title: "Drawa Project",
+        useLang: "사용 언어 : React, Bootstrap, CSS, Firebase, Firebase Hosting",
         function: "주요 기능: ",
-        participation: "참여도 : 100%",
-        gitLink: "https://github.com/sitecreater/portfolioCode",
+        participation: "참여도 : 100% (개인 프로젝트)",
+        gitLink: "https://github.com/sitecreater/drawaCode",
         hostLink: "https://capstone-pwa.firebaseapp.com/"
     }, {
         id: 2,
         image: "https://raw.githubusercontent.com/sitecreater/portfolioStorage.github.io/main/" +
-                "DrawaLogo.png",
-        title: "Clone Coding",
-        useLang: "사용 언어 : React",
-        function: "주요 기능: ",
-        participation: "참여도 : 100%",
-        gitLink: "https://github.com/sitecreater/portfolioCode",
-        hostLink: "https://capstone-pwa.firebaseapp.com/"
-    }, {
-        id: 3,
-        image: "https://raw.githubusercontent.com/sitecreater/portfolioStorage.github.io/main/" +
-                "DrawaLogo.png",
-        title: "Review Page",
+                "logo_Modiva.jpg",
+        title: "Modiva Project",
         useLang: "사용 언어 : Html, CSS, JS",
-        function: "주요 기능: 모달창",
-        participation: "참여도 : 100%",
+        function: "주요 기능: 리뷰페이지 제작",
+        participation: "참여도 : 25% (단체 프로젝트)",
         gitLink: "https://github.com/sitecreater/portfolioCode",
         hostLink: "https://capstone-pwa.firebaseapp.com/"
     }
