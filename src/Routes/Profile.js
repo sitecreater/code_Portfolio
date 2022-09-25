@@ -25,7 +25,7 @@ function Profile() {
                     <div className='row'>
                         <div className="col-md-6 pt-5">
                             <img
-                                src={"https://raw.githubusercontent.com/sitecreater/portfolioStorage.github.io/main/" +
+                                src={"https://raw.githubusercontent.com/sitecreater/storage_Portfolio.github.io/main/" +
                                         "Profile.jpg"}
                                 width="35%"
                                 alt=''
@@ -59,12 +59,13 @@ function Profile() {
                             {
                                 skills.map((a, i) => (
                                     <img
-                                        src={"https://raw.githubusercontent.com/sitecreater/portfolioStorage.github.io/main/" +
+                                        src={"https://raw.githubusercontent.com/sitecreater/storage_Portfolio.github.io/main/" +
                                                 "skill_icon_" + (
                                             i + 1
                                         ) + ".png"}
                                         width="7%"
                                         alt=''
+                                        key={a}
                                         className='skills mx-5 my-4'/>
                                 ))
                             }

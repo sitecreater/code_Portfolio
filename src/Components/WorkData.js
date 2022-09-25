@@ -1,7 +1,7 @@
 let data = [
     {
         id: 0,
-        image: "https://raw.githubusercontent.com/sitecreater/portfolioStorage.github.io/main/" +
+        image: "https://raw.githubusercontent.com/sitecreater/storage_Portfolio.github.io/main/" +
                 "logo_Portfoilo.png",
         title: "Portfolio Project",
         useLang: "사용 언어 : React, Bootstrap, CSS, Github Hosting",
@@ -11,7 +11,7 @@ let data = [
         hostLink: "https://sitecreater.github.io/"
     }, {
         id: 1,
-        image: "https://raw.githubusercontent.com/sitecreater/portfolioStorage.github.io/main/" +
+        image: "https://raw.githubusercontent.com/sitecreater/storage_Portfolio.github.io/main/" +
                 "logo_Drawa.png",
         title: "Drawa Project",
         useLang: "사용 언어 : React, Bootstrap, CSS, Firebase, Firebase Hosting",
@@ -21,7 +21,7 @@ let data = [
         hostLink: "https://capstone-pwa.firebaseapp.com/"
     }, {
         id: 2,
-        image: "https://raw.githubusercontent.com/sitecreater/portfolioStorage.github.io/main/" +
+        image: "https://raw.githubusercontent.com/sitecreater/storage_Portfolio.github.io/main/" +
                 "logo_Modiva.jpg",
         title: "Modiva Project",
         useLang: "사용 언어 : Html, CSS, JS",
