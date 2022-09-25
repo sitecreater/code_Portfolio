@@ -28,7 +28,7 @@ function MainPage() {
                     </div>
                     <div className="col-md-6 pt-5 mb-5">
                         <img
-                            src={"https://raw.githubusercontent.com/sitecreater/portfolioStorage.github.io/main/" +
+                            src={"https://raw.githubusercontent.com/sitecreater/storage_Portfolio.github.io/main/" +
                                     "PinkBrain.png"}
                             width="70%"
                             alt=''
