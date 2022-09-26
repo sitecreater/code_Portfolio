@@ -29,12 +29,13 @@ function Work() {
                                         {work.useLang}
                                     </div>
                                     <div className='WorkSubText'>
-                                        {work.function}
+                                        {work.introduction}
                                     </div>
                                     <div className='WorkSubText'>
                                         {work.participation}
                                     </div>
                                     <div className='iconSpace'>
+                                        
                                         <div className="pt-5">
                                             <div>
                                                 <a href={work.gitLink} target="_blank" rel="noopener noreferrer">
@@ -42,7 +43,6 @@ function Work() {
                                                 </a>
                                             </div>
                                             <div className='ContextSubText pt-2'>GitHub</div>
-
                                         </div>
                                         <div className="pt-5">
                                             <div>
@@ -52,7 +52,7 @@ function Work() {
                                             </div>
                                             <div className='ContextSubText pt-2'>Hosting</div>
                                         </div>
-
+                                        
                                     </div>
                                 </div>
                             </div>
