@@ -5,17 +5,17 @@ let data = [
                 "logo_Portfoilo.png",
         title: "Portfolio Project",
         useLang: "사용 언어 : React, Bootstrap, CSS, Github Hosting",
-        function: "주요 기능: ",
+        introduction: "주요 설명: 포트폴리오용 웹사이트를 리액트앱으로 개발하였습니다.",
         participation: "참여도 : 100% (개인 프로젝트)",
         gitLink: "https://github.com/sitecreater/portfolioCode",
-        hostLink: "https://sitecreater.github.io/"
+        hostLink: "https://sitecreater.github.io/hosting_Portfolio/"
     }, {
         id: 1,
         image: "https://raw.githubusercontent.com/sitecreater/storage_Portfolio.github.io/main/" +
                 "logo_Drawa.png",
         title: "Drawa Project",
         useLang: "사용 언어 : React, Bootstrap, CSS, Firebase, Firebase Hosting",
-        function: "주요 기능: ",
+        introduction: "주요 설명: 한정판 신발과 옷을 구매 혹은 응모 할 수 있는 사이트이며 그 밖에 시세확인, 장바구니, 모바일 navbar 기능이 있습니다. ",
         participation: "참여도 : 100% (개인 프로젝트)",
         gitLink: "https://github.com/sitecreater/drawaCode",
         hostLink: "https://capstone-pwa.firebaseapp.com/"
@@ -25,10 +25,10 @@ let data = [
                 "logo_Modiva.jpg",
         title: "Modiva Project",
         useLang: "사용 언어 : Html, CSS, JS",
-        function: "주요 기능: 리뷰페이지 제작",
-        participation: "참여도 : 25% (단체 프로젝트)",
-        gitLink: "https://github.com/sitecreater/portfolioCode",
-        hostLink: "https://capstone-pwa.firebaseapp.com/"
+        introduction: "주요 설명: 첫 프로젝트로 HTML,CSS,JS를 입문했던 때에 리뷰페이지와 매칭페이지를 제작하였습니다.",
+        participation: "참여도 : 30% (단체 프로젝트)",
+        gitLink: "https://github.com/sitecreater/code_Modiva",
+        hostLink: "https://github.com/sitecreater/storage_Portfolio.github.io/blob/main/hosting_Modiva.png?raw=true"
     }
 ]
 
