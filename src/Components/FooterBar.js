@@ -40,12 +40,8 @@ function FooterBar() {
                                 <Nav.Link as={Link} to="work" spy={true} smooth={true}>
                                     <i className="fa-solid fa-rectangle-list"></i>
                                 </Nav.Link>
-                                <Nav.Link href="/">
-                                    <i
-                                        className="fa-solid fa-house"
-                                        style={{
-                                            color: 'black'
-                                        }}></i>
+                                <Nav.Link as={Link} to="headerBar" spy={true} smooth={true}>
+                                    <i class="fa-solid fa-up-long"></i>
                                 </Nav.Link>
                             </Navbar.Collapse>
                         </Container>

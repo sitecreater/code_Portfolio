@@ -6,7 +6,7 @@ import {Link} from "react-scroll";
 function HeaderBar() {
 
     return (
-        <div className="HeaderBar">
+        <div className="HeaderBar" id="headerBar">
             <div id="HeaderBarFont"> 
                 <Navbar bg="light" expand="lg">
                     <Container>
