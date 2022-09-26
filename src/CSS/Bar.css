@@ -7,3 +7,7 @@
     display: flex;
     justify-content: flex-end;
 }
+
+#footerBg{
+    background-color: rgb(255, 234, 234, 0.5);
+}

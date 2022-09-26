@@ -1,5 +1,5 @@
 import React from 'react';
-import '../CSS/HeaderBar.css';
+import '../CSS/Bar.css';
 import {Navbar, Container, Nav} from 'react-bootstrap'
 import {Link} from "react-scroll";
 
