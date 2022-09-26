@@ -5,6 +5,7 @@ import MainPage from './Routes/MainPage';
 import Profile from './Routes/Profile';
 import Work from './Routes/Work';
 import Fade from 'react-reveal/Fade';
+import FooterBar from './Components/FooterBar';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 <Work/>
                 <Contact/>
             </Fade>
+            <FooterBar/>
         </div>
     );
 }
