@@ -57,7 +57,7 @@ function Contact() {
 function TipBox() {
     return (
         <Flip bottom="bottom">
-            <div className='after_tipBox pt-5 pb-3'>
+            <div className='after_tipBox pt-5'>
                 <p>화면 맨 밑을 클릭하세요!</p>
                 <p>모바일 뷰에서 유용한 메뉴바를 사용할 수 있어요😍</p>
             </div>
