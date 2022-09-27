@@ -1,6 +1,12 @@
 import '../CSS/Contact.css';
+import {Button} from 'react-bootstrap';
+import React, {useState} from 'react';
+import Flip from 'react-reveal/Flip';
 
 function Contact() {
+
+    let [subModal, setSubModal] = useState(false);
+
     return (
         <div className="Contact">
             <div className='HeaderFont pb-1' id='contact'>
@@ -31,9 +37,33 @@ function Contact() {
                         </div>
                     </div>
                 </div>
+                <div className="before_tipBox pb-5">
+                    <Button
+                        variant="dark"
+                        onClick={() => {
+                            setSubModal(!subModal)
+                        }}>모바일로 보신다면? Click🖱️</Button>
+                    {
+                        subModal === true
+                            ? <TipBox></TipBox>
+                            : null
+                    }
+                </div>
             </div>
         </div>
     );
+}
+
+function TipBox() {
+    return (
+        <Flip bottom="bottom">
+            <div className='after_tipBox pt-5 pb-3'>
+                <p>화면 맨 밑을 클릭하세요!</p>
+                <p>모바일 뷰에서 유용한 메뉴바를 사용할 수 있어요😍</p>
+            </div>
+        </Flip>
+
+    )
 }
 
 export default Contact;
