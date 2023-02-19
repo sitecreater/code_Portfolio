@@ -1,63 +1,64 @@
 .MainPage {
-    transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .pinkBrain {
-    position: relative;
-    animation-name: BrainWorking;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+  position: relative;
+  animation-name: BrainWorking;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes BrainWorking {
-    0% {
-        background-color: #fde2e7;
-        left: 0;
-        top: 0;
-    }
-    25% {
-        background-color: #fde2e7;
-        left: 0;
-        top: 15px;
-    }
-    50% {
-        background-color: #fde2e7;
-        left: 0;
-        top: 0;
-    }
-    75% {
-        background-color: #fde2e7;
-        left: 0;
-        top: 15px;
-    }
-    100% {
-        background-color: #fde2e7;
-        left: 0;
-        top: 0;
-    }
+  0% {
+    background-color: #fde2e7;
+    left: 0;
+    top: 0;
+  }
+  25% {
+    background-color: #fde2e7;
+    left: 0;
+    top: 15px;
+  }
+  50% {
+    background-color: #fde2e7;
+    left: 0;
+    top: 0;
+  }
+  75% {
+    background-color: #fde2e7;
+    left: 0;
+    top: 15px;
+  }
+  100% {
+    background-color: #fde2e7;
+    left: 0;
+    top: 0;
+  }
 }
 
 .mainPageText {
-    font-size: 50px;
-    color: rgb(44, 47, 50);
-    font-family: "SBAggroB";
+  font-size: 50px;
+  color: rgb(44, 47, 50);
+  font-family: "SBAggroB";
 }
 
 .mainPageSubText {
-    font-size: large;
-    color: rgb(44, 47, 50);
-    font-family: "SBAggroL";
+  font-size: large;
+  color: rgb(44, 47, 50);
+  font-family: "SBAggroL";
 }
 
 .mainPageBtn {
-    width: 30vh;
-    height: 8vh;
-    border-radius: 30px;
-    border: none;
-    transition: all 0.4s ease-in-out;
+  width: 30vh;
+  height: 8vh;
+  border-radius: 30px;
+  border: none;
+  transition: all 0.4s ease-in-out;
 }
 
 .mainPageBtn:hover {
-    font-weight: 700;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 15px #ff00de, 0 0 20px #ff00de, 0 0 25px #ff00de, 0 0 30px #ff00de;
+  font-weight: 700;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de,
+    0 0 15px #ff00de, 0 0 20px #ff00de, 0 0 25px #ff00de, 0 0 30px #ff00de;
 }

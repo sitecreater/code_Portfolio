@@ -1,63 +1,63 @@
 .HeaderFont {
-    font-size: 28px;
-    font-family: "SBAggroB";
+  font-size: 28px;
+  font-family: "SBAggroB";
 }
 
 .HeaderLine {
-    width: 30px;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    border-top: 4px solid rgb(132, 51, 51);
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-top: 4px solid rgb(132, 51, 51);
 }
 
 .WholeBox {
-    border: solid 1px white;
-    border-radius: 20px 40px 60px 80px;
-    background-color: rgb(255, 234, 234, 0.5);
-    box-shadow: 0 0.10em 0.5em rgba(0, 0, 0, 0.2);
-    border-bottom: solid 1px var(--primary);
+  border: solid 1px white;
+  border-radius: 20px 40px 60px 80px;
+  background-color: rgb(255, 234, 234, 0.5);
+  box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.2);
+  border-bottom: solid 1px var(--primary);
 }
 
 .profilePicDiv {
-    border: 3px solid white;
-    border-radius: 18%;
+  border: 3px solid white;
+  border-radius: 18%;
 }
 
 .ProfileMainText {
-    font-weight: bold;
-    font-family: "SBAggroB";
+  font-weight: bold;
+  font-family: "SBAggroB";
 }
 
 .ProfileSubText {
-    font-family: "SBAggroL";
+  font-family: "SBAggroL";
 }
 
 .ThirdText {
-    font-family: "SBAggroB";
+  font-family: "SBAggroB";
 }
 
 .skills {
-    border: none;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 200ms ease-in;
-    transform: scale(1);
-    cursor: pointer;
+  border: none;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+  cursor: pointer;
 }
 
 .skills:hover {
-    z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.5);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.5);
-    transition: all 200ms ease-in;
-    transform: scale(1.5);
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
 }

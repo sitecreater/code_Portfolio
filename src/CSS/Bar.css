@@ -1,13 +1,13 @@
 #HeaderBarFont {
-    font-family: "SBAggroB";
-    cursor: pointer;
+  font-family: "SBAggroB";
+  cursor: pointer;
 }
 
 #HeaderBarSubText {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
-#footerBg{
-    background-color: rgb(255, 234, 234, 0.5);
+#footerBg {
+  background-color: rgb(255, 234, 234, 0.5);
 }
