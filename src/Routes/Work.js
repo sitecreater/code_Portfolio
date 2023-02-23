@@ -32,6 +32,21 @@ function Work() {
                   <div className="WorkSubText">{work.introduction}</div>
                   <div className="WorkSubText">{work.participation}</div>
                   <div className="iconSpace">
+                    {work.processLink && (
+                      <div className="pt-5">
+                        <div>
+                          <a
+                            href={work.processLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i class="fa-solid fa-book fa-3x"></i>
+                          </a>
+                        </div>
+                        <div className="ContextSubText pt-2">Process</div>
+                      </div>
+                    )}
+
                     <div className="pt-5">
                       <div>
                         <a
@@ -44,6 +59,7 @@ function Work() {
                       </div>
                       <div className="ContextSubText pt-2">GitHub</div>
                     </div>
+
                     <div className="pt-5">
                       <div>
                         <a

@@ -22,6 +22,8 @@ let data = [
     introduction:
       "주요 설명: 한정판 신발과 옷을 구매 혹은 응모 할 수 있는 컨셉이며 그 밖에 PWA앱 화, 응모 내용 DB 저장, 당첨 알림 발송, 모바일 navbar 기능이 있습니다. ",
     participation: "참여도 : 100% (개인 프로젝트)",
+    processLink:
+      "https://github.com/sitecreater/storage_Drawa.github.io/blob/main/Drawa_Process.docx?raw=true",
     gitLink: "https://github.com/sitecreater/drawaCode",
     hostLink: "https://capstone-pwa.firebaseapp.com/",
   },
