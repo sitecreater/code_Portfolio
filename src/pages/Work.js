@@ -1,5 +1,5 @@
-import "../CSS/Work.css";
-import data from "../Components/WorkData.js";
+import "../styles/Work.css";
+import data from "../assets/WorkData.js";
 import { useState } from "react";
 
 function Work() {

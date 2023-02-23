@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import styled from "styled-components"; //style components를 선언
 import { Link } from "react-scroll";
-import "../CSS/Bar.css";
+import "../styles/Bar.css";
 
 let Fix = styled.div`
   position: sticky;

@@ -1,4 +1,4 @@
-import "../CSS/Profile.css";
+import "../styles/Profile.css";
 import { useState } from "react";
 
 function Profile() {

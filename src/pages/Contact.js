@@ -1,4 +1,4 @@
-import "../CSS/Contact.css";
+import "../styles/Contact.css";
 import { Button } from "react-bootstrap";
 import React, { useState } from "react";
 import Flip from "react-reveal/Flip";

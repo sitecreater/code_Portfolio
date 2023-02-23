@@ -1,4 +1,4 @@
-import "../CSS/MainPage.css";
+import "../styles/MainPage.css";
 import { Button } from "react-bootstrap";
 import { Link } from "react-scroll";
 

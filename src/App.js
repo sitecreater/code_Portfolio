@@ -1,11 +1,11 @@
 import "./App.css";
-import HeaderBar from "./Components/HeaderBar";
-import Contact from "./Routes/Contact";
-import MainPage from "./Routes/MainPage";
-import Profile from "./Routes/Profile";
-import Work from "./Routes/Work";
+import HeaderBar from "./components/HeaderBar";
+import Contact from "./pages/Contact";
+import MainPage from "./pages/MainPage";
+import Profile from "./pages/Profile";
+import Work from "./pages/Work";
 import Fade from "react-reveal/Fade";
-import FooterBar from "./Components/FooterBar";
+import FooterBar from "./components/FooterBar";
 
 function App() {
   return (
