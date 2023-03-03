@@ -7,13 +7,13 @@
   https://sitecreater.github.io/hosting_Portfolio/
 
 - MainPage
-<p align="center"><img src="https://user-images.githubusercontent.com/85089341/222620603-3383ee63-f1ac-454b-8581-b29ff3a9c40f.png" width="800" height="400"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/85089341/222620603-3383ee63-f1ac-454b-8581-b29ff3a9c40f.png" width="700" height="350"></p>
 
 - Profile
-<p align="center"><img src="https://user-images.githubusercontent.com/85089341/222621075-dbfda6e2-5b2f-40de-b580-1baad0b596d1.png" width="800" height="400"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/85089341/222621075-dbfda6e2-5b2f-40de-b580-1baad0b596d1.png" width="700" height="350"></p>
 
 - Work
-<p align="center"><img src="https://user-images.githubusercontent.com/85089341/222621107-da2061de-a324-4ccf-9d0b-7fd851fa231c.png" width="800" height="400"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/85089341/222621107-da2061de-a324-4ccf-9d0b-7fd851fa231c.png" width="700" height="350"></p>
 
 - Contact
-<p align="center"><img src="https://user-images.githubusercontent.com/85089341/222621155-da9d54cf-3404-4fa3-9d9c-288cbdac3147.png" width="800" height="400"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/85089341/222621155-da9d54cf-3404-4fa3-9d9c-288cbdac3147.png" width="700" height="350"></p>
