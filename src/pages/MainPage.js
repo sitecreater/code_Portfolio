@@ -11,7 +11,7 @@ function MainPage() {
             <p className="mainPageText">Develop</p>
             <p className="mainPageText">Intuition</p>
             <div className="mainPageSubText pt-5 pb-3">
-              상황에 고착화돼있지 않는<br></br> 직관적인 웹 개발자.
+              고착화되지 않는<br></br> 직관적인 웹 개발자
             </div>
             <div className="pt-5">
               <Button variant="dark" className="mainPageBtn">

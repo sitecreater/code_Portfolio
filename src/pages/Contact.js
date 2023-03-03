@@ -31,9 +31,7 @@ function Contact() {
               <i className="fa-brands fa-github fa-2x"></i>
               <div className="ContextMainText pt-4">GitHub</div>
               <div className="ContextSubText pt-2">
-                <a href="https://github.com/sitecreater">
-                  https://github.com/sitecreater
-                </a>
+                <a href="https://github.com/sitecreater">https://github.com/sitecreater</a>
               </div>
             </div>
           </div>

@@ -18,12 +18,7 @@ function Work() {
             <div className="WholeBox pt-5 pb-5" key={work.id}>
               <div className="row">
                 <div className="mb-5">
-                  <img
-                    src={work.image}
-                    width="15%"
-                    alt=""
-                    className="workPicDiv"
-                  />
+                  <img src={work.image} width="15%" alt="" className="workPicDiv" />
                 </div>
 
                 <div className="my-auto">
@@ -35,11 +30,7 @@ function Work() {
                     {work.processLink && (
                       <div className="pt-5">
                         <div>
-                          <a
-                            href={work.processLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
+                          <a href={work.processLink} target="_blank" rel="noopener noreferrer">
                             <i class="fa-solid fa-book fa-3x"></i>
                           </a>
                         </div>
@@ -49,11 +40,7 @@ function Work() {
 
                     <div className="pt-5">
                       <div>
-                        <a
-                          href={work.gitLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
+                        <a href={work.gitLink} target="_blank" rel="noopener noreferrer">
                           <i className="fa-brands fa-github fa-3x"></i>
                         </a>
                       </div>
@@ -62,11 +49,7 @@ function Work() {
 
                     <div className="pt-5">
                       <div>
-                        <a
-                          href={work.hostLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
+                        <a href={work.hostLink} target="_blank" rel="noopener noreferrer">
                           <i className="fa-solid fa-earth-americas fa-3x"></i>
                         </a>
                       </div>
