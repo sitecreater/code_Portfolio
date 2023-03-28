@@ -30,10 +30,7 @@ function FooterBar() {
         <Dis>
           <Navbar bg="" variant="light" id="footerBg">
             <Container>
-              <Navbar.Collapse
-                id="basic-navbar-nav"
-                className="d-flex justify-content-between"
-              >
+              <Navbar.Collapse id="basic-navbar-nav" className="d-flex justify-content-between">
                 <Nav.Link as={Link} to="profile" spy={true} smooth={true}>
                   <i className="fa-solid fa-address-card"></i>
                 </Nav.Link>

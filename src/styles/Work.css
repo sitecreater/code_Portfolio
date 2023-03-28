@@ -12,6 +12,11 @@
   font-family: "SBAggroB";
 }
 
+.WorkSubUpText {
+  font-family: "SBAggroL";
+  font-size: 12px;
+}
+
 .WorkSubText {
   font-family: "SBAggroL";
   font-size: 15px;

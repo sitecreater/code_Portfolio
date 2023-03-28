@@ -22,15 +22,7 @@ function MainPage() {
             </div>
           </div>
           <div className="col-md-6 pt-5 mb-5">
-            <img
-              src={
-                "https://raw.githubusercontent.com/sitecreater/storage_Portfolio.github.io/main/" +
-                "PinkBrain.png"
-              }
-              width="70%"
-              alt=""
-              className="pinkBrain"
-            />
+            <img src={"https://raw.githubusercontent.com/sitecreater/storage_Portfolio.github.io/main/" + "PinkBrain.png"} width="70%" alt="" className="pinkBrain" />
           </div>
         </div>
       </div>

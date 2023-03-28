@@ -23,9 +23,9 @@ function Work() {
 
                 <div className="my-auto">
                   <div className="WorkMainText">{work.title}</div>
-                  <div className="WorkSubText pt-5">{work.useLang}</div>
-                  <div className="WorkSubText">{work.introduction}</div>
-                  <div className="WorkSubText">{work.participation}</div>
+                  <div className="WorkSubUpText pt-5">{work.useLang}</div>
+                  <div className="WorkSubText pt-3">{work.introduction}</div>
+                  <div className="WorkSubText">{work.introduction2}</div>
                   <div className="iconSpace">
                     {work.processLink && (
                       <div className="pt-5">
@@ -34,27 +34,31 @@ function Work() {
                             <i class="fa-solid fa-book fa-3x"></i>
                           </a>
                         </div>
-                        <div className="ContextSubText pt-2">Process</div>
+                        <div className="ContextSubText pt-2">기획 & 과정</div>
                       </div>
                     )}
 
-                    <div className="pt-5">
-                      <div>
-                        <a href={work.gitLink} target="_blank" rel="noopener noreferrer">
-                          <i className="fa-brands fa-github fa-3x"></i>
-                        </a>
+                    {work.gitLink && (
+                      <div className="pt-5">
+                        <div>
+                          <a href={work.gitLink} target="_blank" rel="noopener noreferrer">
+                            <i className="fa-brands fa-github fa-3x"></i>
+                          </a>
+                        </div>
+                        <div className="ContextSubText pt-2">깃허브 & 설명</div>
                       </div>
-                      <div className="ContextSubText pt-2">GitHub</div>
-                    </div>
+                    )}
 
-                    <div className="pt-5">
-                      <div>
-                        <a href={work.hostLink} target="_blank" rel="noopener noreferrer">
-                          <i className="fa-solid fa-earth-americas fa-3x"></i>
-                        </a>
+                    {work.hostLink && (
+                      <div className="pt-5">
+                        <div>
+                          <a href={work.hostLink} target="_blank" rel="noopener noreferrer">
+                            <i className="fa-solid fa-earth-americas fa-3x"></i>
+                          </a>
+                        </div>
+                        <div className="ContextSubText pt-2">보러 가기</div>
                       </div>
-                      <div className="ContextSubText pt-2">Hosting</div>
-                    </div>
+                    )}
                   </div>
                 </div>
               </div>
