@@ -1,6 +1,6 @@
 # code_Portfolio
 
-> React 앱으로 구성된 포트폴리오 용 사이트입니다.
+> React로 구성된 포트폴리오 용 사이트입니다.
 > <br>효과적으로 PR을 하기 위해서 design과 animation에 집중한 프로젝트입니다.</br>
 
 - 보러 가기
