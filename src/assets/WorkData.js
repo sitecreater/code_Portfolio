@@ -1,12 +1,12 @@
 let data = [
   {
     id: 0,
-    image: "https://raw.githubusercontent.com/sitecreater/storage_Portfolio.github.io/main/" + "logo_Drawa.png",
+    image: "https://raw.githubusercontent.com/sitecreater/storage_Portfolio.github.io/main/" + "logo_memohae.png",
     title: "Memohae Project",
     useLang: "사용 스택 : Nextjs, TypeScript, Semantic UI, Postgresql, REST API, EC2, RDS, Nginx, Cerbot, Ubuntu, Vim",
-    introduction: "REST API로 동작하는 클라이언트 개발 프로젝트입니다.",
+    introduction: "REST API로 동작하는 간단한 메모 프로젝트입니다.",
     introduction2: "로컬에서 개발된 웹 사이트를 EC2와 RDS를 이용하여 외부에서 접속 가능한 서버에 배포하는 것까지 진행했습니다.",
-    // processLink: "https://github.com/sitecreater/storage_Drawa.github.io/blob/main/Drawa_Process.docx?raw=true",
+    processLink: "https://github.com/sitecreater/storage_Portfolio.github.io/blob/main/memohae_Process.docx?raw=true",
     gitLink: "https://github.com/sitecreater/code_memohae",
   },
   {
